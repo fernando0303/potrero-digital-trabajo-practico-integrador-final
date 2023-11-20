@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Página Web</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,300;1,200;1,300&family=Montserrat:ital,wght@0,300;1,400;1,600&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Artifika&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
+    <link rel="stylesheet" href="/Mis estilos/normalize.css">
+    <link rel="stylesheet" type="text/css" href="./Mis estilos/Style.css">
+    <link rel="stylesheet" type="style/css" href="/Recursos/">
+</head>
+
+<body>
+    <header>
+        <nav class="navegacion">
+            <img src="./Recursos/Logo Veterinaria Canarias.jpeg" class="Logo" alt="Logo">
+            <ul class="menu">
+                <li>
+                    <a href="#Seccion1">Servicios Brindados</a>
+                </li>
+                <li>
+                    <a href="#Seccion2">¿Quiénes somos?</a>
+                </li>
+                <li>
+                    <a href="#Seccion3">Algunos de nuestros clientes</a>
+                </li>
+                <li>
+                    <a href="#Seccion4">Sucursales</a>
+                </li>
+                <li>
+                    <a href="#Seccion5">Formulario de Contacto</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    
+    <main>
+        <h1>Veterinaria Canarias</h1>
+
+        <section id="Seccion1" class="Seccion-1">
+            <h2>Servicios Brindados</h2>
+            <ul>
+                <li>
+                    <img src="./Recursos/Cardiología.png" alt="Cardiología" class="referencias-imagenes">Cardiología
+                </li>  
+                <li>
+                    <img src="./Recursos/Laboratorio.png" alt="Laboratorio" class="referencias-imagenes">Laboratorio 
+                </li>  
+                <li>
+                    <img src="./Recursos/Rehabilitación.png" alt="Rehabilitación" class="referencias-imagenes">Rehabilitación 
+                </li>  
+                <li> 
+                    <img src="./Recursos/Vacunas.png" alt="Vacunas" class="referencias-imagenes">Vacunas
+                </li>  
+                <li> 
+                    <img src="./Recursos/Oncología.png" alt="Oncología" class="referencias-imagenes">Oncología
+                </li>  
+            </ul>
+        </section>
+
+        <section id="Seccion2" class="Seccion-2">
+            <h2>¿Quiénes somos?</h2>
+            <p class="descripcion">Somos un grupo de veterinarios que llevamos 10 años en el cuidado de las mascotas, con atención personalizada para cada uno de nuestros pacientes y un especial cuidado para sus compañeros de vida del día a día.</p>
+        </section>
+
+        <section id="Seccion3" class="Seccion-3">
+            <h2>Algunos de nuestros clientes</h2>
+            <ul>
+                <li>
+                    <img src="./Recursos/Perro cardiología.png" alt="Perro cardiología" class="imagenes-clientes">Cardiología en perros
+                </li>
+                <li>
+                    <img src="./Recursos/Gato esterilización.png" alt="Gato esterilización" class="imagenes-clientes">Esterilización en gatos
+                </li>
+                <li>
+                    <img src="./Recursos/Conejo vacunación.png" alt="Conejo vacunación" class="imagenes-clientes">Vacunación en conejos
+                </li> 
+            </ul>   
+        </section>
+
+        <section id="Seccion4" class="Seccion-4">
+            <h2>Sucursales</h2>
+            <ul>
+                <li>
+                    <img src="./Recursos/Sucursal 1.png" alt="Sucursal Bs As" class="direcciones">Av. Monroe 3705, C1430BLB 1430, Buenos Aires
+                </li>
+                <li>
+                    <img src="./Recursos/Sucursal 2.png" alt="Sucursal Canarias" class="direcciones">C. Antonio Martel Rodríguez, 6, 35018 Las Palmas de Gran Canaria, Las Palmas, España
+                </li>
+            </ul>        
+        </section>
+
+        <section id="Seccion5" class="Seccion-5">
+            <h2 class="formulario-titulo">Formulario de Contacto</h2>
+            <form action="#" target="" method="get" name="formDatosPersonales">
+                <div>
+                    <label for="nombre">Nombre:</label>
+                        <input type="text" name="nombre" id="nombre" placeholder=""/>
+                    <label for="email">Email:</label>
+                        <input type="email" name="email" id="email" placeholder=""/>
+                    <label for="telefono">Teléfono:</label>
+                        <input type="number" name="telefono" id="telefono" placeholder=""/>
+                    <label for="asunto">Asunto:</label>
+                        <input type ="text" name="asunto" id="asunto" placeholder=""/>
+                </div>    
+                <div>
+                    <label for="mensaje" class="motivo">Descripcion de la consulta:</label>
+                        <textarea name="mensaje" for="mensaje" placeholder="" maxlength="300"></textarea> 
+                        <input type="submit" name="enviar" value="Enviar"/>
+                </div>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <h3>!Seguinos en nuestras redes sociales!</h3>
+        <ul>
+            <li>
+                <i class="lab la-facebook iconos"></i>
+            </li>
+            <li>
+                <i class="lab la-twitter-square iconos"></i>
+            </li>
+            <li>
+                <i class="lab la-instagram iconos"></i>
+            </li>
+            <li>
+                <i class="lab la-whatsapp iconos"></i>
+            </li>
+            <li>
+                <p class="creditos">Desarrollado por el alumno Fernando Fuentes en el curso de Programación Front-End de Potrero Digital</p>
+            </li>
+        </ul>
+    </footer>
+</body>
+</html>
+
+
+
+
+
+<!---GRACIAS A MI NOVIECITA SARITA POR LA IDEA, te amodorooo--->
